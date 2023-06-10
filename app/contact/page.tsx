@@ -8,9 +8,9 @@ import { linkedinAcc } from '@/const/const'
 
 function Contact() {
   const contactOptions = [
-    { link: { email }, icon: faEnvelope },
-    { link: { githubAcc }, icon: faGithub },
-    { link: { linkedinAcc }, icon: faLinkedin },
+    { link: email, icon: faEnvelope },
+    { link: githubAcc, icon: faGithub },
+    { link: linkedinAcc, icon: faLinkedin },
   ]
 
   return (
@@ -21,7 +21,7 @@ function Contact() {
         <div className="flex  w-full justify-between items-center">
           {contactOptions.map((item, index) => {
             return (
-              <a key={index} href={item.link.email}>
+              <a key={index} href={item.link}>
                 <FontAwesomeIcon
                   className="h-12 md:h-24 lg:h-40"
                   icon={item.icon}
