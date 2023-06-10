@@ -15,3 +15,18 @@ Check out my great 8-bit portfolio website! I wanted to show my skills and make 
 - Figma
 - Git
 - FontAwesome
+- Favicon taken from [Freepik](https://pl.freepik.com/) (Star icons created by Freepik - Flaticon)
+
+## IV. [Live](https://i-am-tomasz.vercel.app/)
+
+## V. Installation
+To install project locally follow these steps:
+ ```
+    git clone git@github.com:ike-tom/i-am-tomasz-next.git
+ ```
+ ```
+    npm install
+ ```
+ ```
+    npm run dev
+ ```
