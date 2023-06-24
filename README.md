@@ -10,6 +10,7 @@ Check out my great 8-bit portfolio website! I wanted to show my skills and make 
 - Tailwind CSS
 
 ## III. Other tools
+- Cypress
 - ESLint
 - Prettier
 - Figma
